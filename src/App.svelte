@@ -55,7 +55,7 @@
   }
   article {
     max-width: 768px;
-    min-height: 260px;
+    min-height: 270px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,6 +66,7 @@
     border-radius: 25px;
   }
   p {
+    font-size: 1.1em;
     line-height: 1.7;
     font-style: italic;
     text-align: justify;
@@ -75,6 +76,7 @@
     margin-bottom: 20px;
     background: #fdc735;
     transition: 400ms;
+    transform-origin: left;
   }
   .play {
     animation: grow linear infinite;
